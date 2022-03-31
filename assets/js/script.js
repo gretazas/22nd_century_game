@@ -7,10 +7,13 @@ document.getElementById('winner').innerHTML = `
  
 `
 document.getElementById('button').remove();
+
 document.body.innerHTML += `
-<div>
+<div">
 <p style="text-align:center; font-size:16px; color:red">Happy April Fool's Day</p>
 </div>
 `
+startConfetti();
 }
+
 document.getElementById('button').addEventListener('click', winTheGame)

@@ -7,6 +7,15 @@ button {
     display: flex;
     text-align: center;
     justify-content: center;
-    height: 800px; 
+    height: 300px; 
+    width: 100%;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 300px; 
     width: 100%;
 }
